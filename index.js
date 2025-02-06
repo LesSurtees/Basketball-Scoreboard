@@ -1,7 +1,7 @@
 let homeScore = document.getElementById("hScore")
-let guestScore = document.getElementById("gScore")
+let awayScore = document.getElementById("aScore")
 let hScore = 0
-let gScore = 0
+let aScore = 0
 
 function homeAddOne(){
     hScore += 1
@@ -16,15 +16,15 @@ function homeAddThree(){
     homeScore.textContent = hScore
 }
 
-function guestAddOne(){
-    gScore += 1
-    guestScore.textContent = gScore
+function awayAddOne(){
+    aScore += 1
+    awayScore.textContent = aScore
 }
-function guestAddTwo(){
-    gScore += 2
-    guestScore.textContent = gScore
+function awayAddTwo(){
+    aScore += 2
+    awayScore.textContent = aScore
 }
-function guestAddThree(){
-    gScore += 3
-    guestScore.textContent = gScore
+function awayAddThree(){
+    aScore += 3
+    awayScore.textContent = aScore
 }
